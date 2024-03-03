@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\bin\deneme.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\bin\deneme.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\bin\deneme.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\obj\Debug\deneme.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\obj\Debug\deneme.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\obj\Debug\deneme.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\deneme\deneme\obj\Debug\deneme.pdb

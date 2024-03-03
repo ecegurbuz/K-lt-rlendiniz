@@ -1,0 +1,589 @@
+﻿body {
+    background-color: white;
+    border-top: 4px solid purple;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#wrapper {
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+    header .logo {
+        float: left;
+        width: 100px;
+        height: 45px;
+        font-family: Lucida Handwriting;
+        border-right: 1px solid white;
+        text-align: center;
+        line-height: 45px;
+        background-color: white;
+        color: purple;
+        font-size: x-large;
+        
+    }
+        header .logo ul {
+            list-style: none;
+        }
+        header .logo ul li a {
+            text-decoration: none;
+        }
+    
+
+    header .arama-wrap {
+        position: relative;
+        float: left;
+        border-radius: 5px;
+        margin: 15px 0 0 25px;
+        height: 29px;
+        line-height: 29px;
+        margin-left: 300px;
+        margin-right: 50px;
+    }
+
+        header .arama-wrap .txtArama {
+            float: left;
+            font-size: 14px;
+            border: 1px solid purple;
+            border-radius: 5px 0 0 5px;
+            height: 29px;
+            line-height: 29px;
+            background-color: #fff;
+            padding-top: 0;
+            padding-bottom: 0;
+            width: 270px;
+        }
+
+
+        header .arama-wrap .btnArama {
+            height: 31px;
+            line-height: 29px;
+            border: 0 none;
+            background-color: purple;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            padding: 0 8px;
+            width: auto;
+        }
+
+    header #sag-nav {
+        float: right;
+        width: 500px;
+        border-right: 1px solid white;
+        background-color: white;
+        line-height: 45px;
+    }
+
+        header #sag-nav ul {
+            list-style: none;
+            height: 45px;
+            line-height: 60px;
+        }
+
+            header #sag-nav ul li {
+                float: right;
+                margin-left: 10px;
+                color: purple;
+                font-size: large;
+                font-family: Helvetica;
+            }
+
+                header #sag-nav ul li a {
+                    text-decoration: none;
+                    color: grey;
+                }
+
+                    header #sag-nav ul li a:hover {
+                        color: purple;
+                    }
+
+                    header #sag-nav ul li img{
+                        width: 45px;
+                        height: 45px;
+                    }
+
+ .ben {
+        position: relative;
+        margin-right: 100px;
+    }
+
+     .ben .ben-alt {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 130px;
+            padding: 12px 16px;
+            z-index: 1;
+            
+        }
+
+        .ben .ben-alt a {
+            display: block;
+            margin-right: 5px;
+            margin-left: 0;
+        }
+        .ben .ben-alt ul .fav a{
+             margin-right: 20px;
+        } 
+
+        .ben .ben-alt .cik .cikis {
+            width: 50px;
+            margin-right: 40px;
+            background-color: purple;
+            color: white;
+            
+        }
+        .ben .ben-alt .cik .cikis:hover{
+            background-color: purple;
+        }
+    header #alt-nav {
+        width: 100%;
+        border-right: 1px solid white;
+        background-color: white;
+        line-height: 50px;
+        float: left;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+        header #alt-nav ul {
+            list-style: none;
+            height: 41px;
+            line-height: 36px;
+            flex-basis: 85%;
+            flex-grow: 1;
+            flex-shrink: 1;
+            margin-left: -6px;
+        }
+
+            header #alt-nav ul li {
+                float: left;
+                margin-left: 60px;
+                color: purple;
+                font-size: large;
+                font-family: Helvetica;
+                margin: 0;
+                flex-basis: auto;
+                flex-grow: 1;
+                flex-shrink: 1;
+                text-align: center;
+                padding: 0 20px;
+                transition: all .2s ease-in-out;
+                width: 150px;
+            }
+
+                header #alt-nav ul li a {
+                    text-decoration: none;
+                    color: grey;
+                    display: block;
+                    border-bottom: 6px solid transparent;
+                }
+
+                    header #alt-nav ul li a:hover {
+                        color: purple;
+                        border-bottom: 5px solid purple;
+                    }
+
+#container, .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#container {
+    padding: 5px 5px 0 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.sol {
+    float: left;
+    height: 600px;
+    width: 250px;
+    border: 1px solid purple;
+    margin-top: 20px;
+}
+    .sol .p {
+    margin-left: 80px;
+    color: purple;
+    margin-top: 5px;
+
+}
+    .sol ul {
+        
+        list-style-type: disc;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        list-style: none;
+    }
+        .sol ul li {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            display: list-item;
+            text-align: center;
+            
+        }
+            .sol ul li a {
+                color: -webkit-link;
+                cursor: pointer;
+                text-decoration: none;
+                padding: 10px 0;
+                position: relative;
+                padding-right: 30px;
+                display: block;
+               -ms-word-wrap: break-word;
+                word-wrap: break-word;
+                font-size: large;
+                
+            }
+            
+                .sol ul li a small {
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                    color: #CC3732;
+                    font-size: 0.85em;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+    
+
+.icerik {
+    float: left;
+    width: 740px;
+    height: 1435px;
+    margin-top: 0;
+    background-color: white;
+    margin-left: 30px;
+    
+}
+.icerik .konu-aciklama {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+.konu-aciklama .Kategori {
+    float: left;
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    color: #666;
+    white-space: nowrap;
+    
+}
+
+.konu-aciklama .Baslik {
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 56px;
+    margin-bottom: 1.5rem;
+    color: #333;
+    word-wrap: break-word;
+    font-family: "Open Sans",sans-serif;
+    margin: 0 0 .75em;
+    
+}
+
+.konu-aciklama .image {
+    margin: 20px 0 20px;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .konu-aciklama .Aciklama {
+        font-size: 16px;
+        line-height: 2.8rem;
+        position: relative;
+        color: #333;
+        font-family: Martel,serif;
+    }
+.r {
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+    .r .Basliklar {
+        float: left;
+        width: 33.33333%;
+        position: relative;
+        min-height: 1px;
+        margin-top: 20px;
+        margin-left: 65px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 400px;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+        background-color: #fff;
+    }
+        .r .Basliklar .img {
+            overflow: hidden;
+            max-height: 275px;
+            position: relative;
+            width: 100%;
+            vertical-align: middle;
+            margin: 0;
+            border: 0;
+        }
+        .r .Basliklar .kategori {
+            font-size: 1.2rem;
+            color: #c3c1c1;
+            padding: 15px 15px 7.5px;
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+            .r .Basliklar .kategori a {
+                color: #000;
+                text-decoration: none;
+                transition: color 150ms ease;
+                font-size: 1.2rem;
+                padding: 15px 15px 7.5px;
+              
+            }
+        .r .Basliklar .baslik {
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            word-wrap: break-word;
+            font-weight: 700;
+            padding: 0 15px 15px;
+            
+        }
+    .r Basliklar .baslik a {
+        color: #000;
+        text-decoration: none;
+        transition: color 150ms ease;
+    }
+    .icerik .yorumlar{
+        margin-top: 50px;
+    }
+        .icerik .yorumlar .b {
+            
+            font-size: xx-large;
+            color:black;
+            margin-top: 5px;
+        }
+.yorumlar ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    list-style: none;
+}
+    .yorumlar ul li {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        display: list-item;
+        
+    }
+        .yorumlar ul li a {
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 10px 0;
+            position: relative;
+            padding-right: 30px;
+            display: block;
+            -ms-word-wrap: break-word;
+            word-wrap: break-word;
+            font-size: large;
+        }
+        
+        
+        .yorum {
+            margin-top: 5px;
+            
+
+        }
+        .btnY{
+            margin-top: 5px;
+            background-color: purple;
+            color: white;
+            width: 100px;
+
+        }
+.sag {
+    float: right;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    
+    
+}
+
+        .sag .reklam {
+            width: 50%;
+            margin: 0;
+            padding: 15px;
+        }
+
+.categories--large__item, .categories--small__item, .categories__item {
+    width: 182px;
+    margin: 3px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    display: inline-table;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+    .categories--large__item img, .categories--small__item img, .categories__item img {
+        width: 182px;
+    }
+.categories__caption__heading {
+    padding-bottom: 5px;
+    min-height: 60px;
+    font-family: interstate;
+    letter-spacing: 0.24px;
+    font-size: 15px;
+    line-height: 16px;
+    padding-top: 5px;
+}
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    color: black;
+    word-wrap: break-word;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-style: italic;
+}
+.form-container {
+    max-width: 360px;
+    width: 100%;
+    padding: 10px;
+    height: 549px;
+}
+
+    .form-container h1, h2 {
+        margin-bottom: 20px;
+        line-height: 1.4;
+        font-size: 21px;
+        font-family: inherit;
+        font-weight: bold;
+        color: #333;
+    }
+
+fieldset {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.vertical > div > label, .vertical > fieldset > div > label {
+    display: block;
+    float: none;
+    margin-right: 0;
+    padding-left: 0;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.vertical .action .lbl_kayit.sonuc {
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    color: black;
+    background-color: white;
+    font-family: 'Source Sans Pro',sans-serif;
+    margin-top: 5px;
+    height: 30px;
+    
+}
+input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+input {
+    width: 250px;
+    border: 1px solid purple;
+}
+
+.vertical div.actions {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.row .col-label {
+    margin-top: 10px;
+}
+
+.row .textbox #Password {
+    margin-top: 5px;
+}
+
+form div.actions {
+    margin-left: 25%;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+
+
+.btnKayit {
+    background-color: purple;
+    color: white;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+
+
+.actions .Giris {
+    background-color: purple;
+    color: white;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+footer {
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+
